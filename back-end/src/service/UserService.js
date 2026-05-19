@@ -1,7 +1,5 @@
 const User = require("../model/User");
 
-
-
 async function register(firstName, lastName, age, email, password) {
   const newUser = {
     name: { firstName, lastName },
